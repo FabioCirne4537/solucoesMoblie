@@ -10,10 +10,6 @@ export function Fabio(){
     return(
         <View><Text>Meu primeiro componente sozinho</Text>
         <Image source={require('../Sources/image.jpg')}/>
-        <Image source={require('../Sources/image.jpg')}/>
-        <Image source={require('../Sources/image.jpg')}/>
-        <Image source={require('../Sources/image.jpg')}/>
-        <Image source={require('../Sources/image.jpg')}/>
         </View>
     )
 }
