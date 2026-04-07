@@ -8,10 +8,7 @@ export default function Login({navigation}){
       <TextInput placeholder='Senha'/>
       <Button title='Entrar'
       color={'#7e0930ff'}
-      onPress={() => navigation.navigate('Home Screen')}/>
-      <Button title='Pessoas'
-      color={'#7e0930ff'}
-      onPress={() => navigation.navigate('Pessoas Screen')}/>
+      onPress={() => navigation.navigate('Home')}/>
     </View>
   )
 }
